@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url("./assets/fonts/OpenSans-Regular.woff2");
+  }
+  
+  @font-face {
+    font-family: "OpenSans Bold";
+    src: url("./assets/fonts/OpenSans-Bold.woff2");
+  }
+  
+  @font-face {
+    font-family: "Brygada-1918";
+    src: url("./assets/fonts/Brygada-1918.woff2");
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  
+    line-height: 2.3;
+  
+    background-color: #0b1d26;
+  }
+  
+  .container {
+    display: flex;
+  
+    width: 1280px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    height: 713px;
+    width: 50%;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .right-side {
+    height: 713px;
+    width: 50%;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  
+    text-align: right;
+  }
+  
+  .tagline {
+    position: relative;
+  
+    margin: 0;
+    padding-left: 100px;
+    letter-spacing: 0.3em;
+  }
+  
+  .number {
+    position: absolute;
+    top: 30px;
+    left: -100px;
+  
+    color: #fff;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 200px;
+  
+    opacity: 0.1;
+  
+    line-height: 0;
+  }
+  
+  .profession {
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #f7df1e;
+  }
+  
+  .border {
+    width: 70px;
+    height: 2px;
+    background-color: #f7df1e;
+  
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    z-index: 1;
+  }
+  
+  .profession-name {
+    margin: 20px 0 50px;
+  
+    font-family: "Brygada-1918", serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.1;
+    color: #fff;
+  
+    position: relative;
+    z-index: 10;
+  }
+  
+  .description {
+    font-family: "OpenSans Regular", sans-serif;
+    color: #fff;
+  }
+  
+  .learn-more {
+    position: relative;
+  
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 17px;
+    color: #f7df1e;
+    text-decoration: none;
+  }
+  
+  .learn-more::after {
+    line-height: 0;
+  
+    font-size: 1.5em;
+    letter-spacing: 0;
+    color: #f7df1e;
+  
+    padding-left: 10px;
+  
+    position: absolute;
+    top: 50%;
+  
+    content: "→";
+  }
+  
